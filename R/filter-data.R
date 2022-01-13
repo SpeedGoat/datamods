@@ -488,7 +488,7 @@ drop_id <- function(data) {
           return(NULL)
         if (length(values) >= length(x) * 0.9)
           return(NULL)
-        if (length(values) >= 50)
+        if (length(values) >= 150)
           return(NULL)
       }
       x
